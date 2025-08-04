@@ -1,11 +1,19 @@
-- 👋 Hi, I’m @Bm0047
-- 👀 I’m interested in tech changes
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on security issues
-- 😄 Pronouns: he
-- ⚡ Fun fact: above info isnt real
+class EthicalHacker:
+    def __init__(self):
+        self.name = "Bm0047"
+        self.country = "Tanzania 🇹🇿"
+        self.role = "Cybersecurity Specialist"
+        self.skills = [
+            "Penetration Testing",
+            "Vulnerability Assessment",
+            "Network Security",
+            "Web App Security",
+            "Digital Forensics",
+            "Malware Analysis"
+        ]
+        
+    def __str__(self):
+        return f"{self.name} | {self.role}"
 
-<!---
-Bm0047/Bm0047 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+me = EthicalHacker()
+print(me)
